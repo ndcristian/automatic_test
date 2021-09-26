@@ -10,7 +10,7 @@ describe('test model', ()=>{
     cy.contains('Ofertare')
     cy.contains('Admin')
     cy.contains('Login')
-    cy.contains('Logout')
+    // cy.contains('Logout')
 
   })
  
