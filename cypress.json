@@ -1,7 +1,8 @@
 {
     "video":false,
     "env": {
-        "ELECTRON_RUN_AS_NODE":1
+        "ELECTRON_RUN_AS_NODE":1,
+        "DISPLAY":":99"
        
       }
 }
