@@ -5,10 +5,10 @@ describe('test model', ()=>{
 
   it('correct menu', ()=>{
 
- cy.visit('https://ui-demo.zf-v2x.com/')
-    cy.contains('Welcome')
-    cy.contains('Next')
-    cy.contains('ZF AD')
+ cy.visit('http://localhost:4200/')
+    cy.contains('a')
+    // cy.contains('Next')
+    // cy.contains('ZF AD')
     
 
     // cy.visit('http://localhost:4200/')
@@ -17,6 +17,7 @@ describe('test model', ()=>{
     // cy.contains('Admin')
     // cy.contains('Login')
     // cy.contains('Logout')
+    // cy.visit('https://ui-demo.zf-v2x.com/')
 
   })
  
