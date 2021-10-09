@@ -7,6 +7,6 @@
         "test": "npx cypress run --spec cypress/integration/alg/model/*.spec.js --headless "
       },
     "devDependencies": {
-        "cypress": "^8.4.1"
+        "cypress": "^8.4.1" 
     }
 }
