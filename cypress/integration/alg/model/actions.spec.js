@@ -6,7 +6,7 @@ describe('test model', ()=>{
   it('correct menu', ()=>{
 
  cy.visit('http://localhost:4200/')
-    cy.contains('Welcome')
+    cy.contains('Welcometest')
     cy.contains('Next')
     // cy.contains('ZF AD')
     
